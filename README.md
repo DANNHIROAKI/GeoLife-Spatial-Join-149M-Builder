@@ -159,8 +159,8 @@
 >
 > Convert meter coordinates to centimeter integers:
 >
-> - $x_{cm} = \text{round\_away\_from\_zero}(x_m \times 100)$
-> - $y_{cm} = \text{round\_away\_from\_zero}(y_m \times 100)$
+> - $x_{cm} = \text{round-away-from-zero}(x_m \times 100)$
+> - $y_{cm} = \text{round-away-from-zero}(y_m \times 100)$
 >
 > Definition of `round_away_from_zero`:
 >
@@ -172,14 +172,14 @@
 >
 > Interpret `datetime` as UTC time and convert it to Unix epoch milliseconds:
 >
-> - $t_{ms} = \lfloor \text{timestamp\_seconds} \times 1000 \rfloor$
+> - $t_{ms} = \lfloor \text{timestamp-seconds} \times 1000 \rfloor$
 >
 > ### 3.4 Altitude Encoding (Centimeters) and Valid-Altitude Points
 >
 > Altitude input is in feet:
 >
 > - $alt_m = alt_{ft} \times 0.3048$
-> - $z_{cm} = \text{round\_away\_from\_zero}(alt_m \times 100)$
+> - $z_{cm} = \text{round-away-from-zero}(alt_m \times 100)$
 >
 > A point is considered a valid-altitude point if:
 >
