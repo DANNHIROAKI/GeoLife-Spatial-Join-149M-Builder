@@ -1,0 +1,5 @@
+numpy>=1.26
+pyproj>=3.6.1
+pyarrow>=14.0.0
+xxhash>=3.4.1
+tqdm>=4.66
