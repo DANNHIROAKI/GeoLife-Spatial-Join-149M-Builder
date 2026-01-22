@@ -81,11 +81,7 @@
 >
 > - Construct a box centered at each point. The spatial half-width is $r_d=\Delta d/2$, and the temporal half-width is $r_t=\Delta t/2$;
 >
-> - Two boxes intersect **iff** the corresponding points satisfy:
->
->   $$
->   |x_1-x_2|\le \Delta d,\quad |y_1-y_2|\le \Delta d,\quad |t_1-t_2|\le \Delta t
->   $$
+> - Two boxes intersect **iff** the corresponding points satisfy: $|x_1-x_2|\le \Delta d,\quad |y_1-y_2|\le \Delta d,\quad |t_1-t_2|\le \Delta t$
 >
 >   (For 4D, additionally include $|z_1-z_2|\le \Delta d$.)
 >
